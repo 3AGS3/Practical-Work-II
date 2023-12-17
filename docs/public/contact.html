@@ -1,20 +1,45 @@
 <!--A contact section (contact.html), which will include a user-friendly form to contact with you. 
     This form is designed without any scripting elements that would send or save the entered content.-->
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Título de mi página web</title>
-  </head>
-  <body>
-    <header>
-      <h1>Titular principal de la página</h1>
-    </header>
-    <main>
-      <h2>Primer Subtítulo de la página</h2>
-      <p>Primer párrafo</p>
-    </main>
-    <footer></footer>
-  </body>
-</html>
+    <html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>My webpage</title>
+    
+        <!--ETIQUETA LINK-->
+        <link href="../css/styles.css" type="text/css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+      </head>
+    
+      <body>
+        <div class="menu">
+          <ul>
+            <li><a class="active" href="#"><span class="icon"><i class="fas fa-home"></i></span></a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./topic.html">Topic</a></li>
+            <li><a href="./net.html">Net</a></li>
+            <li><a href="./degree.html">Degree</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="form-wrapper">
+          <form>
+            <fieldset>
+        
+              <label for="fname">First name:</label><br>
+              <input type="text" id="fname" name="fname" placeholder="Enter your first name here"><br>
+        
+              <label for="lname">Last name:</label><br>
+              <input type="text" id="lname" name="lname" placeholder="Enter your last name here"><br><br>
+        
+              <label for="email">Email:</label><br>
+              <input type="text" id="email" name="email" placeholder="youremail@example.com"><br><br>
+        
+              <label for="message">Message</label><br />
+              <textarea id="message" name="message" placeholder="Write your message here.."></textarea>
+            </fieldset>
+          </form>
+          <div id="submit-button-wrapper">
+            <button id="submit" onclick="alert('Message submited')">Submit</button>
+          </div>
+        </div>

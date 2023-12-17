@@ -49,6 +49,8 @@ li a:hover {
 .active {
   background-color: rgb(21, 16, 25);
 }
+
+<!--Title-->
 .frontpage{
   text-align: center;
   height: 100%;
@@ -65,68 +67,46 @@ li a:hover {
   background-color: rgb(21, 16, 25);
 }
 
-<!--Tabla-->
+<!--Topic-->
+header{
+  color: white;
+  text-align: center;
+}
+
+<!--Degree-->
+
+.titles{
+  color: white;
+}
+
+/* Tabla */
 .plan-de-estudios {
-    width: 100%;
-    border-collapse: collapse;
+  width: 100%;
+  border-collapse: collapse;
 }
 
 .plan-de-estudios th, td {
-    padding: 12px 15px;
-    text-align: left;
-    border-bottom: 1px solid #fff;
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #fff;
+  color: white;
 }
 
 .plan-de-estudios th {
-    background-color: #f4f4f4;
-    font-weight: bold;
-} 
-
-<!--Mercados-- > 
-.Gif1 {
-  width: 10%;
-  height: 13%;
-  display: inline-block;
-  border-radius: 1%;
+  background-color: #f4f4f4;
+  font-weight: bold;
+  color: black;
 }
 
-.about {
-  display: flex;
-  flex-direction: row;
+.plan-de-estudios td a{
+  color: rgb(89, 125, 162);
 }
 
-.Noticia1 {
-  background-color: black;
-  width: 45%;
-  height: auto;
-  padding: 1%;
-  margin: 0% 1% 0% 3%;
+/* Fundamentals */
+section {
+	margin: 5%;
+	padding: 10%;
+	border: 5px solid rgb(89, 125, 162);
+  color: #fff;
 }
 
-.Imagen1 {
-  width: 300px;
-  height: auto;
-  margin: auto;
-  display: block;
-  border-radius: 10px;
-}
-
-h1 {
-  color: white;
-}
-
-.topic {
-  display: flex;
-  flex-direction: row;
-}
-
-.net {
-  display: flex;
-  flex-direction: row;
-}
-
-.link {
-  color: white;
-  text-align: right;
-  display: block;
-}
