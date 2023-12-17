@@ -1,89 +1,86 @@
 @charset "utf-8";
 /* CSS Document */
+
+<!--Home-->
 html,
 body {
   margin: 0px;
+  background-color: #000;
+  background-image: url("../images/Backgroundimage1.png");
+  background-size: cover;
+  background-position: center;
 }
-
-* {
-  list-style: none;
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.menu .sidebar {
-  background: black;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 22%;
-  padding: 20px 0;
-  transition: all 0.5s ease;
-}
-.menu .sidebar .profile {
-  margin-bottom: 30px;
+<!--Vertical Navigation Bar-->
+.menu{
+  margin-bottom: 5%;
   text-align: center;
-}
-.menu .sidebar .profile img {
-  display: block;
-  width: 22%;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-.menu .sidebar .profile h3 {
-  color: #ffffff;
-  margin: 10px 0 5px;
-}
-.menu .sidebar .profile p {
-  color: white;
-  font-size: 14px;
+  background: rgb(21, 16, 25);
+  position: fixed;
+  width: 100%;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 22%;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-  background-color: #000;
+  overflow: hidden;
+  background-color: rgb(21, 16, 25);
 }
-
+li {
+  float: left;
+}
 li a {
   display: block;
-  color: #f1f1f1;
-  background-color: #000;
-  padding: 8px 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
+  height: 5%;
+  font-size: 25px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-
-li a.active {
-  background-color: #04aa6d;
+.icon{
   color: white;
+  width: 30px;
+  display: inline-block;
 }
-
-li a:hover:not(.active) {
-  background-color: #555;
-  color: white;
+li a:hover {
+  background-color: rgb(89, 125, 162);
+}
+.active {
+  background-color: rgb(21, 16, 25);
+}
+.frontpage{
+  text-align: center;
+  height: 100%;
+}
+.frontpage h1{
+  display: inline-block;
+  font-size:100px;
+  background-color: rgb(21, 16, 25);
+}
+.frontpage h2{
+  display: inline-block;
+  font-size:70px;
+  color: rgb(89, 125, 162);
+  background-color: rgb(21, 16, 25);
 }
 
 <!--Tabla-->
 .plan-de-estudios {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 20px;
-  }
-  
-  .plan-de-estudios th, .plan-de-estudios td {
-    border: 1px solid #ddd;
-    padding: 8px;
+}
+
+.plan-de-estudios th, td {
+    padding: 12px 15px;
     text-align: left;
-  }
-  
-  .plan-de-estudios th {
-    background-color: #f2f2f2;
-  }
+    border-bottom: 1px solid #fff;
+}
+
+.plan-de-estudios th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+} 
 
 <!--Mercados-- > 
 .Gif1 {
