@@ -10,7 +10,7 @@ body {
   background-size: cover;
   background-position: center;
 }
-<!--Vertical Navigation Bar-->
+/* Navigation Bar */
 .menu{
   margin-bottom: 5%;
   text-align: center;
@@ -50,12 +50,13 @@ li a:hover {
   background-color: rgb(21, 16, 25);
 }
 
-<!--Title-->
+/* Title */
 .frontpage{
   text-align: center;
   height: 100%;
   position: fixed;
-  margin: 50%;
+  width: 100%;
+  margin: 5% 0% 0% 0%;
 }
 .frontpage h1{
   display: inline-block;
