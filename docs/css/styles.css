@@ -72,18 +72,6 @@ li a:hover {
   background-color: rgb(21, 16, 25);
 }
 
-<!--Topic-->
-header{
-  color: white;
-  text-align: center;
-}
-
-<!--Degree-->
-
-.titles{
-  color: white;
-}
-
 /* Tabla */
 .plan-de-estudios {
   width: 100%;
